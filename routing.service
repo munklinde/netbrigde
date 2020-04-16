@@ -1,0 +1,17 @@
+[Unit]
+Description=routing service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+Restart=no
+RestartSec=3
+User=root
+RemainAfterExit=yes
+
+ExecStart=/home/lars/routing_on.sh
+ExecStop=/home/lars/routing_off.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+[Unit]
+Description=tcgui service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+User=root
+
+ExecStart=/usr/bin/env python3 /home/lars/tcgui/main.py --ip $(/sbin/ip -o -4 addr list enp0s9 | awk '{print $4}' | cut -d/ -f1)
+
+[Install]
+WantedBy=multi-user.target
