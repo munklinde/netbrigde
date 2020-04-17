@@ -1,9 +1,9 @@
 ![Overview](overview.JPG)
 Needed software:
 - I've used a Ubuntu deriviate [Bodhi Linux](https://www.bodhilinux.com/)
-- tcGui project: https://github.com/tum-lkn/tcgui.git
-- remove packages: nplan netplan netplant.io 
-- install deb-packages: ifupdown iproute2 dnsmasq python3 python3-flask 
+- Removed packages: nplan netplan netplant.io networkmanager
+- Added tcGui project: https://github.com/tum-lkn/tcgui.git
+- Added deb-packages: ifupdown iproute2 dnsmasq python3 python3-flask 
 
 
 
