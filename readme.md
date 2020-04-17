@@ -10,7 +10,7 @@
 - Added deb-packages: ifupdown iproute2 dnsmasq python3 python3-flask 
 
 
-##Descriptions
+## Descriptions
 The bridge has 3 network cards.
 - Top one, in my setup "enp0s9" for generel access and control of the bridge. Should have a static IP or dns-name to be able to find it and ensure stabel connection even in a remotely deployed setup.
 - Left one, in my setup "enp0s3" (bridged)
