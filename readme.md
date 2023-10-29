@@ -1,4 +1,4 @@
-# Network quality mainipulator for testing systems testing
+# Network quality mainipulator for systems testing
 ## Ablility to manipulate upstream and downstream traffic independently
 
 ![Using tcgui](https://github.com/tum-lkn/tcgui/blob/master/tcgui.png)![Overview](overview.JPG)
